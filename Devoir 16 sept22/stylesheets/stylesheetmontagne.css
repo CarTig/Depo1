@@ -1,0 +1,108 @@
+body{
+    font-family: century; 
+    margin-top: 20pt;
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-bottom: 20pt;
+    border-top:groove ;
+    border-right: groove;
+
+}
+
+h1{
+    font-size: 33pt;
+    margin-left: 50pt;
+}
+
+#logomontagne{
+    height: 70px;
+    width: 70px;
+}
+
+
+.nav{
+    background-color: rgb(255, 238, 227);
+ 
+}
+
+nav ul{
+    display: flex;
+    list-style:none ;
+
+}
+nav a{
+    padding-right: 400px;
+    display: flex;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.article{
+    
+    padding: 2%;
+    
+}
+
+
+#article1{
+    background-color: rgb(174, 224, 224);
+    color: darkgrey;
+    padding: 2%;
+    border: solid;
+    border-radius: 25px;
+    border-color: white;
+
+}
+
+#article2{
+    background-color: rgb(123, 205, 207);
+    color: rgb(110, 110, 110);
+    padding: 2%;
+    border: solid;
+    border-radius: 25px;
+    border-color: white;
+    
+}
+
+h2{
+    padding-bottom: 2%;
+    font-size: 30px;
+    text-align: justify;
+    padding: 2%;
+    
+}
+
+h3{
+    padding: 2%;
+}
+
+footer{
+    display: flex;
+}
+
+
+footer ul{
+    display: flex;
+    list-style: none;
+    padding: 3%;
+}
+
+footer a {
+    display: flex;
+    padding-right: 400px;
+    flex-flow: nowrap;
+    text-align: center;
+}
